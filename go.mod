@@ -6,7 +6,7 @@ require (
 	github.com/BurntSushi/toml v1.3.2
 	github.com/docker/docker v23.0.8+incompatible
 	github.com/golang/mock v1.6.0
-	github.com/gorilla/mux v1.8.0
+	github.com/gorilla/mux v1.8.1
 	github.com/jinzhu/copier v0.3.5
 	github.com/prometheus/client_golang v1.17.0
 	github.com/rancher/go-rancher v0.0.0-20190109212254-cbc1b0a3f68d
