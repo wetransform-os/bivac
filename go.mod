@@ -8,7 +8,7 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/gorilla/mux v1.8.0
 	github.com/jinzhu/copier v0.3.5
-	github.com/prometheus/client_golang v1.17.0
+	github.com/prometheus/client_golang v1.18.0
 	github.com/rancher/go-rancher v0.0.0-20190109212254-cbc1b0a3f68d
 	github.com/rancher/go-rancher-metadata v0.0.0-20200311180630-7f4c936a06ac
 	github.com/sirupsen/logrus v1.9.3
@@ -53,7 +53,7 @@ require (
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
-	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
+	github.com/matttproud/golang_protobuf_extensions/v2 v2.0.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/moby/spdystream v0.2.0 // indirect
 	github.com/moby/term v0.0.0-20220808134915-39b0c02b01ae // indirect
@@ -66,9 +66,9 @@ require (
 	github.com/pelletier/go-toml/v2 v2.1.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
-	github.com/prometheus/client_model v0.4.1-0.20230718164431-9a2bf3000d16 // indirect
-	github.com/prometheus/common v0.44.0 // indirect
-	github.com/prometheus/procfs v0.11.1 // indirect
+	github.com/prometheus/client_model v0.5.0 // indirect
+	github.com/prometheus/common v0.45.0 // indirect
+	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/rivo/uniseg v0.3.4 // indirect
 	github.com/sagikazarmark/locafero v0.3.0 // indirect
 	github.com/sagikazarmark/slog-shim v0.1.0 // indirect
@@ -80,7 +80,7 @@ require (
 	go.uber.org/multierr v1.9.0 // indirect
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
 	golang.org/x/oauth2 v0.12.0 // indirect
-	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/term v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
