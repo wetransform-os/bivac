@@ -9,6 +9,20 @@ services:
     ports:
       - "9000:9000"
 
+  create-bucket:
+    image: minio/mc:latest
+    environment:
+      MC_HOST_minio: http://the_root_user:the_root_password@minio:9000
+    entrypoint:
+      - sh
+      - -c
+      - |
+        until mc ls minio > /dev/null 2>&1; do
+          sleep 0.5
+        done
+
+        mc mb minio/testing
+
   bivac:
     image: bivac-testing
     command: manager
