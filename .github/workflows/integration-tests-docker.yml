@@ -20,7 +20,7 @@ jobs:
       #    sudo apt-get install docker-ce
 
       - name: Set up Go 1.x
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v5
         with:
           go-version: ^1.20
 
@@ -46,7 +46,7 @@ jobs:
       #    sudo apt-get install docker-ce
 
       - name: Set up Go 1.x
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v5
         with:
           go-version: ^1.20
 
@@ -72,7 +72,7 @@ jobs:
       #    sudo apt-get install docker-ce
 
       - name: Set up Go 1.x
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v5
         with:
           go-version: ^1.20
 
