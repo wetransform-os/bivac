@@ -2,8 +2,10 @@ name: Binary
 
 on:
   workflow_dispatch:
-  #push:
-  #  branches: [ master ]
+  push:
+    branches:
+      # - master
+      - 'syn/master'
   #pull_request:
   #  branches: [ master ]
 
