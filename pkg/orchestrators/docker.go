@@ -172,7 +172,7 @@ func (o *DockerOrchestrator) DeployAgent(image string, cmd []string, envs []stri
 	body, err := o.client.ContainerLogs(context.Background(), container.ID, types.ContainerLogsOptions{
 		ShowStdout: true,
 		ShowStderr: true,
-		Details:    true,
+		Details:    false,
 		Follow:     true,
 	})
 	if err != nil {
@@ -363,7 +363,7 @@ func (o *DockerOrchestrator) AttachOrphanAgent(containerID, namespace string) (s
 	body, err := o.client.ContainerLogs(context.Background(), container.ID, types.ContainerLogsOptions{
 		ShowStdout: true,
 		ShowStderr: true,
-		Details:    true,
+		Details:    false,
 		Follow:     true,
 	})
 	if err != nil {

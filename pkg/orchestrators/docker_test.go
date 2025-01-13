@@ -237,7 +237,7 @@ func TestDockerDeployAgentSuccess(t *testing.T) {
 	mockDocker.EXPECT().ContainerLogs(context.Background(), "alpha", types.ContainerLogsOptions{
 		ShowStdout: true,
 		ShowStderr: true,
-		Details:    true,
+		Details:    false,
 		Follow:     true,
 	}).Return(ioutil.NopCloser(bytes.NewReader([]byte("foo"))), nil).Times(1)
 
