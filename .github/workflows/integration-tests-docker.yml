@@ -1,6 +1,7 @@
 name: Integration tests - Docker
 
 on:
+  workflow_dispatch: {}
   push:
     branches: [ master ]
   pull_request:
